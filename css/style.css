@@ -1,5 +1,14 @@
 @import url(https://fonts.googleapis.com/css?family=Economica:400,700);
 
+.pc { display: block !important; }
+.sp { display: none !important; }
+
+@media only screen and (max-width: 750px) {
+  .pc { display: none !important; }
+  .sp { display: block !important; }
+  img { max-width: 100%; }
+}
+
 body {
   background: #c0392b;
   font-family: 'Economica', sans-serif;

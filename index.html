@@ -2,21 +2,39 @@
 <html lang="ja">
 <head>
   <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
-  <link rel="stylesheet" href="css/style.css">
-  <title>TOP | カラオケBar nico</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>TOP | KARAOKE BAR nico</title>
   <meta name="keywords" content="荏原中延, nico, カラオケバーnico, カラオケBar nico">
   <meta name="description" content="荏原中延駅徒歩xx分 カラオケBar nicoのホームページです。">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <script type="text/javascript" src="js/top.js"></script>
   <div class="header">
   </div>
   <div class="main">
-    <span class="title">
-      <p>KARAOKE<br>Bar<br>nico<br><br>@荏原中延</p>
-    </span>
+    <div class="title">
+      <p>KARAOKE<br>BAR<br>nico<br><img src="img/icon.png" alt="nicoアイコン"><br>@荏原中延</p>
+    </div>
+    <div class="hamburger-menu">
+      <label for="menu-btn-check" class="menu-btn"><span></span><span></span><span></span></label>
+      <div class="menu-content" id="menu-content">
+        <nav id="g-nav">
+          <div id="g-nav-list"><!--ナビの数が増えた場合縦スクロールするためのdiv※不要なら削除-->
+            <ul>
+              <li><a href="#">TOP</a></li>
+              <li><a href="about.html">ABOUT</a></li>
+              <li><a href="menu.html">MENU</a></li>
+              <li><a href="calendar.html">CALENDER</a></li>
+              <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
   </div>
   <div class="footer">
   </div>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="  crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/top.js"></script>
 </body>
 </html>

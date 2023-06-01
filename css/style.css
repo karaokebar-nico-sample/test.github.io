@@ -10,6 +10,34 @@
   img { max-width: 100%; }
 }
 
+.title-top {
+  color: #FF9494;
+  font-size: 6.2vw;
+  letter-spacing: 0.1em;
+  width: 60vw;
+}
+
+.title-top img {
+  width: 25vw;
+}
+
+.title a{
+  text-decoration: none;
+  color: #FFF5E4;
+}
+
+.title-top a{
+  text-decoration: none;
+}
+
+.title {
+  background:#FF9494;
+  width: 28vw;
+  top: 5vw;
+  left: 4vw;
+  border-radius: 1vw;
+}
+
 /*ボタン外側*/
 .menu-btn{
   position: fixed;
@@ -97,7 +125,7 @@
     /*ナビの数が増えた場合縦スクロール*/
     position: fixed;
     z-index: 999; 
-    width: 40%;
+    width: 40vw;
     height: 100vh;/*表示する高さ*/
     overflow: auto;
     -webkit-overflow-scrolling: touch;
@@ -162,7 +190,7 @@ body{
 }
 
 a{
-  color: #D75281;
+  color: #FF9494;
 }
 
 .lead{

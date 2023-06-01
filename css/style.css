@@ -149,6 +149,10 @@ table {
 body{
   background:#FFF5E4;
   padding:20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: bold;
 }
 
 a{

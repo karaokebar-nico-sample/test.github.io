@@ -14,18 +14,18 @@
 .menu-btn{
   position: fixed;
   z-index: 9999;
-  top: 10px;
-  right: 10px;
+  top: 5vw;
+  right: 4vw;
   display: flex;
-  height: 60px;
-  width: 60px;
+  height: 10vw;
+  width: 10vw;
   justify-content: center;
   align-items: center;
   background: #FF9494;
   cursor: pointer;
-    width: 50px;
-    height:50px;
-  border-radius: 5px;
+    width: 12vw;
+    height:12vw;
+  border-radius: 1vw;
 }
 
 /*ボタン内側*/
@@ -33,34 +33,34 @@
     display: inline-block;
     transition: all .4s;/*アニメーションの設定*/
     position: absolute;
-    left: 14px;
-    height: 3px;
-    border-radius: 2px;
+    left: 3vw;
+    height: 0.8vw;
+    border-radius: 0.6vw;
   background: #FFF5E4;
   }
 
 
 .menu-btn span:nth-of-type(1) {
-  top:15px; 
-    width: 45%;
+  top:3.68vw; 
+  width: 45%;
 }
 
 .menu-btn span:nth-of-type(2) {
-  top:23px;
-    width: 35%;
+  top:5.7vw;
+  width: 35%;
 }
 
 .menu-btn span:nth-of-type(3) {
-  top:31px;
-    width: 20%;
+  top: 7.7vw;
+  width: 20%;
 }
 
 /*activeクラスが付与されると線が回転して×になる*/
 
 .menu-btn.active span:nth-of-type(1) {
-    top: 18px;
-    left: 18px;
-    transform: translateY(6px) rotate(-135deg);
+    top: 4.5vw;
+    left: 4.5vw;
+    transform: translateY(1.5vw) rotate(-135deg);
     width: 30%;
 }
 
@@ -69,9 +69,9 @@
 }
 
 .menu-btn.active span:nth-of-type(3){
-    top: 30px;
-    left: 18px;
-    transform: translateY(-6px) rotate(135deg);
+    top: 7.5vw;
+    left: 4.5vw;
+    transform: translateY(-1.5vw) rotate(135deg);
     width: 30%;
 }
 
@@ -79,7 +79,7 @@
 #g-nav{
     position: fixed;
     z-index: 999;
-    top: 0px;
+    top: 0vw;
     right: -120%;
     width: 40%;
     height: 100vh;
@@ -118,14 +118,14 @@
 #g-nav li{
   list-style: none;
   text-align: left;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
 }
 
 #g-nav li a{
   color: #FFF5E4;
   text-decoration: none;
-  padding:10px;
+  padding:3vw;
   display: block;
   text-transform: uppercase;
   letter-spacing: 0.1em;
@@ -143,12 +143,16 @@ table {
   align: center;
   cellspacing: 21;
   cellpadding: 21;
-  font-size: 20px; 
 }
 
 body{
+  font-size: 3.2vw;
+  text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
   background:#FFF5E4;
-  padding:20px;
+  padding:4vw;
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 0.1em;
@@ -161,14 +165,14 @@ a{
 }
 
 .lead{
-  margin:20px 0 0 0;
+  margin:4vw 0 0 0;
 }
 
 .btn-block{
-  width:200px;  
-  padding: 30px;
+  width: 10vw;  
+  padding: 2vw;
 }
 
 img {
-  width:100px;
+  width:10vw;
 }

@@ -1,9 +1,9 @@
 $(".menu-btn").click(function () {
     $(this).toggleClass('active');
-    $("#g-nav").toggleClass('panelactive');
+    $("#g-nav-sp").toggleClass('panelactive');
 });
 
-$("#g-nav a").click(function () {
+$("#g-nav-sp a").click(function () {
     $(".openbtn1").removeClass('active');
-    $("#g-nav").removeClass('panelactive');
+    $("#g-nav-sp").removeClass('panelactive');
 });

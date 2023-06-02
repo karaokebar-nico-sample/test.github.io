@@ -10,11 +10,33 @@
   img { max-width: 100%; }
 }
 
+.title-header {
+  color: #FF9494;
+  margin-bottom: 2vw;
+}
+
 .title-top {
   color: #FF9494;
-  font-size: 6.2vw;
   letter-spacing: 0.1em;
+}
+
+.title-top.pc {
+  font-size: 3.2vw;
+  width: 100vw;
+}
+
+.title-top.sp {
+  font-size: 6.2vw;
   width: 60vw;
+}
+
+.title-top.pc div {
+  float: left;
+  margin-left: 10vw;
+}
+
+.icon {
+  margin-top: 5vw;
 }
 
 .title-top img {
@@ -40,6 +62,22 @@
   top: 5vw;
   left: 4vw;
   border-radius: 1vw;
+}
+
+.description.pc {
+  font-size: 1.2vw;
+}
+
+.description.sp {
+  font-size: 6.2vw;
+}
+
+.news.pc {
+  font-size: 1.2vw;
+}
+
+.news.sp {
+  font-size: 6.2vw;
 }
 
 /*ボタン外側*/
@@ -108,7 +146,46 @@
 }
 
 /* コンテンツ */
-#g-nav{
+#g-nav-pc {
+  position: relative;
+  width: 90vw;
+  height: 4vw;
+  background-color: #FF9494;
+  border-radius: 0.5vw;
+  font-size: 0;
+}
+
+#g-nav-pc a {
+  line-height: 4vw;
+  height: 100%;
+  font-size: 1.4vw;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+}
+
+a:nth-child(1) {
+  width: 16vw;
+}
+a:nth-child(2) {
+  width: 17vw;
+}
+a:nth-child(3) {
+  width: 16vw;
+}
+a:nth-child(4) {
+  width: 19vw;
+}
+a:nth-child(5) {
+  width: 19vw;
+}
+
+#g-nav-sp{
     position: fixed;
     z-index: 999;
     top: 0vw;
@@ -120,12 +197,12 @@
 }
 
 /*アクティブクラスがついたら位置を0に*/
-#g-nav.panelactive{
+#g-nav-sp.panelactive{
     right: 0;
 }
 
 /*ナビゲーションの縦スクロール*/
-#g-nav.panelactive #g-nav-list{
+#g-nav-sp.panelactive #g-nav-list{
     /*ナビの数が増えた場合縦スクロール*/
     position: fixed;
     z-index: 999; 
@@ -136,7 +213,7 @@
 }
 
 /*ナビゲーション*/
-#g-nav ul {
+#g-nav-sp ul {
     /*ナビゲーション天地中央揃え*/
     position: absolute;
     z-index: 999;
@@ -147,14 +224,14 @@
 
 /*リストのレイアウト設定*/
 
-#g-nav li{
+#g-nav-sp li{
   list-style: none;
   text-align: left;
   margin-top: 1vw;
   margin-bottom: 1vw;
 }
 
-#g-nav li a{
+#g-nav-sp li a{
   color: #FFF5E4;
   text-decoration: none;
   padding:3vw;
@@ -191,6 +268,7 @@ body{
   letter-spacing: 0.1em;
   font-weight: bold;
   color: #660000;
+  overflow-x: hidden;
 }
 
 a{

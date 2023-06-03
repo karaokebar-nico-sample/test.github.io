@@ -64,20 +64,67 @@
   border-radius: 1vw;
 }
 
-.description.pc {
-  font-size: 1.2vw;
+.description {
+  margin-left: 2vw;
 }
 
-.description.sp {
-  font-size: 6.2vw;
+.subtitle {
+  display: block;
+  font-size: 4vw;
+  text-align: center;
+  color: #FF9494;
 }
 
-.news.pc {
-  font-size: 1.2vw;
+.subtitle p {
+  margin-bottom: 0;
 }
 
-.news.sp {
-  font-size: 6.2vw;
+.news-date {
+  font-size: 1.5vw;
+  color: #FF9494;
+}
+
+.news-title {
+  font-size: 3vw;
+  color: #FF9494;
+}
+
+.news-title {
+  margin-bottom: 0;
+}
+
+.news-top li {
+  display: flex;
+  vertical-align: middle;
+}
+
+.news-top span {
+  font-size: 1.5vw;
+  position: relative;
+  top: 1vw;
+  margin-right: 2vw;
+}
+
+.menu-child {
+  display: flex;
+}
+
+.more {
+  font-size: 1.5vw;
+  text-align: right;
+}
+
+.more a{
+  text-decoration: none;
+}
+
+.back {
+  font-size: 1.5vw;
+  text-align: center;
+}
+
+.back a{
+  text-decoration: none;
 }
 
 /*ボタン外側*/
@@ -169,19 +216,19 @@
   cursor: pointer;
 }
 
-a:nth-child(1) {
+#g-nav-pc a:nth-child(1) {
   width: 16vw;
 }
-a:nth-child(2) {
+#g-nav-pc a:nth-child(2) {
   width: 17vw;
 }
-a:nth-child(3) {
+#g-nav-pc a:nth-child(3) {
   width: 16vw;
 }
-a:nth-child(4) {
+#g-nav-pc a:nth-child(4) {
   width: 19vw;
 }
-a:nth-child(5) {
+#g-nav-pc a:nth-child(5) {
   width: 19vw;
 }
 
@@ -194,6 +241,7 @@ a:nth-child(5) {
     height: 100vh;
     background:#FF9494;
     transition: all 0.6s;
+    font-size: 3.2vw;
 }
 
 /*アクティブクラスがついたら位置を0に*/
@@ -256,7 +304,7 @@ table {
 
 body{
   font-family: Verdana, Roboto, "Droid Sans", "游ゴシック", YuGothic, "メイリオ", Meiryo, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "ＭＳ Ｐゴシック", sans-serif;
-  font-size: 3.2vw;
+  font-size: 2vw;
   text-size-adjust: none;
   -webkit-text-size-adjust: none;
   -moz-text-size-adjust: none;

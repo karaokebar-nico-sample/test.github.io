@@ -12,7 +12,11 @@
 
 .title-header {
   color: #FF9494;
-  margin-bottom: 2vw;
+  margin-bottom: 1.2vw;
+}
+
+.title-header a {
+  text-decoration: none;
 }
 
 .title-top {
@@ -310,7 +314,7 @@ body{
   -moz-text-size-adjust: none;
   -ms-text-size-adjust: none;
   background:#FFF5E4;
-  padding:4vw;
+  padding:3vw;
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 0.1em;

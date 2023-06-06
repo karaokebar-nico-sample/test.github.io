@@ -73,7 +73,6 @@
 }
 
 .subtitle {
-  display: block;
   font-size: 4vw;
   text-align: center;
   color: #FF9494;
@@ -109,10 +108,6 @@
   margin-right: 2vw;
 }
 
-.menu-child {
-  display: flex;
-}
-
 .more {
   font-size: 1.5vw;
   text-align: right;
@@ -127,8 +122,130 @@
   text-align: center;
 }
 
-.back a{
+.back a {
   text-decoration: none;
+}
+
+.menu-border {
+  width: 15vw;
+  margin: auto;
+  border-bottom: 0.5vw solid #FF9494;
+}
+
+.menu ul {
+  padding-right: 10vw;
+  margin-top: 0;
+}
+
+.menu p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.menu-charge {
+  font-size: 1vw;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  width: 20vw;
+  margin: auto;
+}
+
+.menu-charge-name {
+  text-align: left;
+  margin: auto;
+}
+
+.menu-charge-price {
+  text-align: right;
+}
+
+.menu-parent {
+  text-align: center;
+}
+
+.menu-parent-description {
+  font-size: 1vw;
+  padding-bottom: 0.5vw;
+}
+
+.menu-parent-rule {
+  font-size: 1.75vw;
+  padding-top: 1vw;
+}
+
+.menu-child-nomiho {
+  width: 70vw;
+  margin-left: 5vw;
+  list-style: none;
+  column-count: 2;
+  text-align: center;
+}
+
+.menu-child {
+  list-style: none;
+}
+
+.menu-child li {
+  display: flex;
+}
+
+.menu-name-nomiho {
+  margin-left: 3vw;
+}
+
+.menu-name {
+  position: absolute;
+  left: 21vw;
+}
+
+.menu-currency {
+  position: absolute;
+  right: 36vw;
+}
+
+.menu-price {
+  margin-left: auto;
+  margin-right: 10vw;
+}
+
+.menu-price-startat {
+  position: absolute;
+  right: 20vw;
+}
+
+.menu-description-name {
+  position: absolute;
+  left: 22vw;
+  font-size: 1vw;
+}
+
+.menu-description-price {
+  position: absolute;
+  right: 39vw;
+  font-size: 1vw;
+  padding-top: 0.7vw;
+}
+
+.menu-description-subname {
+  position: absolute;
+  left: 16vw;
+  font-size: 1vw;
+}
+
+.small {
+  font-size: 1.5vw;
+  padding-top: 0.5vw;
+}
+
+.menu-category {
+  position: absolute;
+  left: 15vw;
+}
+
+.menu-subname {
+  position: absolute;
+  left: 30vw;
 }
 
 /*ƒ{ƒ^ƒ“ŠO‘¤*/
@@ -157,8 +274,8 @@
     left: 3vw;
     height: 0.8vw;
     border-radius: 0.6vw;
-  background: #FFF5E4;
-  }
+    background: #FFF5E4;
+}
 
 
 .menu-btn span:nth-of-type(1) {

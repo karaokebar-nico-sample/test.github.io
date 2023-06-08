@@ -106,6 +106,10 @@
   font-size: 3.0vw;
 }
 
+.owner img {
+  width: 70.0vw;
+}
+
 @media screen and (min-width: 960px) {
   /* PC */
 
@@ -114,6 +118,10 @@
     margin-top: 4.0vw;
     margin-bottom: 10.0vw;
     font-size: 1.5vw;
+  }
+
+  .owner img {
+    width: 10.0vw;
   }
 
 }

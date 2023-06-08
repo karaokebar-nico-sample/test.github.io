@@ -10,8 +10,20 @@
   img { max-width: 100%; }
 }
 
+@media screen and (min-width: 481px) {
+  /* タブレット */
+}
+
+@media screen and (min-width: 960px) {
+  /* PC */
+  .title-header {
+    color: #19A7CE;
+    margin-bottom: 1.2vw;
+  }
+
+}
 .title-header {
-  color: #19A7CE;
+  color: #80A7CE;
   margin-bottom: 1.2vw;
 }
 

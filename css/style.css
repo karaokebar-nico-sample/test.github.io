@@ -14,18 +14,6 @@
   /* タブレット */
 }
 
-.title-top img {
-  width: 100vw;
-}
-
-
-@media screen and (min-width: 960px) {
-  /* PC */
-  .title-top img {
-    width: 30vw;
-  }
-}
-
 .title-header {
   color: #19A7CE;
   margin-bottom: 1.2vw;
@@ -57,6 +45,17 @@
 
 .icon {
   margin-top: 5vw;
+}
+
+.title-top img {
+  width: 30vw;
+}
+
+@media screen and (min-width: 960px) {
+  /* PC */
+  .title-top img {
+    width: 30vw;
+  }
 }
 
 .insta img {
@@ -124,16 +123,13 @@
 }
 
 .news-date {
-  font-size: 1.5vw;
+  font-size: 3.0vw;
   color: #19A7CE;
 }
 
 .news-title {
-  font-size: 3vw;
+  font-size: 6.0vw;
   color: #19A7CE;
-}
-
-.news-title {
   margin-bottom: 0;
 }
 
@@ -143,10 +139,30 @@
 }
 
 .news-top span {
-  font-size: 1.5vw;
+  font-size: 3.0vw;
   position: relative;
-  top: 1vw;
-  margin-right: 2vw;
+  top: 1.0vw;
+  margin-right: 2.0vw;
+}
+
+@media screen and (min-width: 960px) {
+  /* PC */
+
+  .news-date {
+    font-size: 1.5vw;
+  }
+
+  .news-title {
+    font-size: 3.0vw;
+  }
+
+  .news-top span {
+    font-size: 1.5vw;
+    position: relative;
+    top: 1.0vw;
+    margin-right: 2.0vw;
+  }
+
 }
 
 .more {

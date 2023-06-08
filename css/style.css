@@ -496,7 +496,7 @@ table {
 
 body{
   font-family: Verdana, Roboto, "Droid Sans", "ŸàƒSƒVƒbƒN", YuGothic, "ƒƒCƒŠƒI", Meiryo, "ƒqƒ‰ƒMƒmŠpƒS ProN W3", "Hiragino Kaku Gothic ProN", "‚l‚r ‚oƒSƒVƒbƒN", sans-serif;
-  font-size: 2vw;
+  font-size: 4.0vw;
   text-size-adjust: none;
   -webkit-text-size-adjust: none;
   -moz-text-size-adjust: none;
@@ -509,6 +509,15 @@ body{
   font-weight: bold;
   color: #146C94;
   overflow-x: hidden;
+}
+
+@media screen and (min-width: 960px) {
+  /* PC */
+
+  body {
+    font-size: 2.0vw;
+  }
+
 }
 
 a{

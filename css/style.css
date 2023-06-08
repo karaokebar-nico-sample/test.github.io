@@ -10,10 +10,6 @@
   img { max-width: 100%; }
 }
 
-@media screen and (min-width: 481px) {
-  /* タブレット */
-}
-
 .title-header {
   color: #19A7CE;
   margin-bottom: 1.2vw;
@@ -44,22 +40,49 @@
 }
 
 .icon {
-  margin-top: 5vw;
+  margin-top: 5.0vw;
 }
 
 .title-top img {
-  width: 30vw;
+  width: 60.0vw;
+}
+
+.insta img {
+  width: 10.0vw;
+}
+
+@media screen and (min-width: 481px) {
+  /* タブレット */
+
+  .icon {
+    margin-top: 5.0vw;
+  }
+
+  .title-top img {
+    width: 30.0vw;
+  }
+
+  .insta img {
+    width: 5.0vw;
+  }
+
 }
 
 @media screen and (min-width: 960px) {
   /* PC */
-  .title-top img {
-    width: 30vw;
-  }
-}
 
-.insta img {
-  width: 5vw;
+  .icon {
+    margin-top: 5.0vw;
+  }
+
+  .title-top img {
+    width: 30.0vw;
+  }
+
+  .insta img {
+    width: 5.0vw;
+  }
+
 }
 
 .insta-head img{
@@ -79,23 +102,43 @@
 
 .title {
   background:#19A7CE;
-  width: 28vw;
-  top: 5vw;
-  left: 4vw;
-  border-radius: 1vw;
+  width: 38.0vw;
+  top: 5.0vw;
+  left: 4.0vw;
+  border-radius: 2.0vw;
 }
 
 .about {
-  margin-left: 2vw;
+  margin-left: 2.0vw;
+}
+
+@media screen and (min-width: 481px) {
+  /* タブレット */
+
+  .title {
+    width: 28.0vw;
+    border-radius: 1.0vw;
+  }
+
+}
+
+@media screen and (min-width: 960px) {
+  /* PC */
+
+  .title {
+    width: 28.0vw;
+    border-radius: 1.0vw;
+  }
+
 }
 
 .about div {
   float: left;
-  margin-left: 2vw;
+  margin-left: 2.0vw;
 }
 
 .about img {
-  width: 30vw;
+  width: 30.0vw;
 }
 
 .introduction {
@@ -107,11 +150,28 @@
 }
 
 .owner {
-  text-align: center;
+  margin: auto;
+  display: block;
 }
 
 .owner img {
   width: 70.0vw;
+}
+
+@media screen and (min-width: 481px) {
+  /* タブレット */
+
+  .introduction {
+    margin-left: 12.0vw;
+    margin-top: 4.0vw;
+    margin-bottom: 10.0vw;
+    font-size: 1.5vw;
+  }
+
+  .owner img {
+    width: 35.0vw;
+  }
+
 }
 
 @media screen and (min-width: 960px) {
@@ -176,6 +236,30 @@
 
 .more a{
   text-decoration: none;
+}
+
+@media screen and (min-width: 481px) {
+  /* タブレット */
+
+  .news-date {
+    font-size: 1.5vw;
+  }
+
+  .news-title {
+    font-size: 3.0vw;
+  }
+
+  .news-top span {
+    font-size: 1.5vw;
+    position: relative;
+    top: 1.0vw;
+    margin-right: 2.0vw;
+  }
+
+  .more {
+    font-size: 1.5vw;
+  }
+
 }
 
 @media screen and (min-width: 960px) {
@@ -545,6 +629,19 @@ body{
 
 ul {
   padding-inline-start: 0.5vw;
+}
+
+@media screen and (min-width: 481px) {
+  /* タブレット */
+
+  body {
+    font-size: 2.0vw;
+  }
+
+  ul {
+    padding-inline-start: 8.5vw;
+  }
+
 }
 
 @media screen and (min-width: 960px) {

@@ -238,6 +238,15 @@
   text-decoration: none;
 }
 
+.back {
+  font-size: 4.0vw;
+  text-align: center;
+}
+
+.back a {
+  text-decoration: none;
+}
+
 @media screen and (min-width: 481px) {
   /* タブレット */
 
@@ -257,6 +266,10 @@
   }
 
   .more {
+    font-size: 1.5vw;
+  }
+
+  .back {
     font-size: 1.5vw;
   }
 
@@ -284,15 +297,10 @@
     font-size: 1.5vw;
   }
 
-}
+  .back {
+    font-size: 1.5vw;
+  }
 
-.back {
-  font-size: 1.5vw;
-  text-align: center;
-}
-
-.back a {
-  text-decoration: none;
 }
 
 .menu-border {

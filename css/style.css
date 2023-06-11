@@ -380,6 +380,21 @@
   padding-top: 1vw;
 }
 
+.menu-child-nomiho {
+  list-style: none;
+  column-count: 2;
+  text-align: center;
+}
+
+.menu-child {
+  list-style: none;
+}
+
+.menu-child li {
+  display: flex;
+  padding-left: 0;
+}
+
 @media screen and (min-width: 481px) {
   /* タブレット */
 
@@ -394,6 +409,10 @@
 
   .menu-parent-rule {
     font-size: 1.75vw;
+  }
+
+  .menu-child li {
+    padding-left: 9vw;
   }
 
 }
@@ -414,20 +433,10 @@
     font-size: 1.75vw;
   }
 
-}
+  .menu-child li {
+    padding-left: 9vw;
+  }
 
-.menu-child-nomiho {
-  list-style: none;
-  column-count: 2;
-  text-align: center;
-}
-
-.menu-child {
-  list-style: none;
-}
-
-.menu-child li {
-  display: flex;
 }
 
 .menu-name-nomiho {

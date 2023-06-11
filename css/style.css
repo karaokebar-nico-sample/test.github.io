@@ -44,7 +44,7 @@
 }
 
 .title-top img {
-  width: 60.0vw;
+  width: 30.0vw;
 }
 
 .insta img {
@@ -158,6 +158,22 @@
   width: 70.0vw;
 }
 
+.subtitle {
+  font-size: 8vw;
+  text-align: center;
+  color: #19A7CE;
+}
+
+.subtitle p {
+  margin-bottom: 0;
+}
+
+.subtitle-menu {
+  font-size: 8vw;
+  text-align: center;
+  color: #19A7CE;
+}
+
 @media screen and (min-width: 481px) {
   /* タブレット */
 
@@ -170,6 +186,14 @@
 
   .owner img {
     width: 35.0vw;
+  }
+
+  .subtitle {
+    font-size: 4vw;
+  }
+
+  .subtitle-menu {
+    font-size: 4vw;
   }
 
 }
@@ -188,22 +212,14 @@
     width: 35.0vw;
   }
 
-}
+  .subtitle {
+    font-size: 4vw;
+  }
 
-.subtitle {
-  font-size: 4vw;
-  text-align: center;
-  color: #19A7CE;
-}
+  .subtitle-menu {
+    font-size: 4vw;
+  }
 
-.subtitle p {
-  margin-bottom: 0;
-}
-
-.subtitle-menu {
-  font-size: 4vw;
-  text-align: center;
-  color: #19A7CE;
 }
 
 .news-date {
@@ -325,17 +341,17 @@
 }
 
 .menu-charge {
-  font-size: 1vw;
+  font-size: 3vw;
   list-style: none;
   display: flex;
   justify-content: center;
-  width: 20vw;
+  width: 30vw;
   margin: auto;
 }
 
 .menu-charge-name {
   text-align: left;
-  margin: auto;
+  margin-right: auto;
 }
 
 .menu-charge-price {
@@ -347,8 +363,36 @@
 }
 
 .menu-parent-description {
-  font-size: 1vw;
+  font-size: 3vw;
   padding-bottom: 0.5vw;
+}
+
+@media screen and (min-width: 481px) {
+  /* タブレット */
+
+  .menu-charge {
+    font-size: 1vw;
+    width: 20vw;
+  }
+
+  .menu-parent-description {
+    font-size: 1vw;
+  }
+
+}
+
+@media screen and (min-width: 960px) {
+  /* PC */
+
+  .menu-charge {
+    font-size: 1vw;
+    width: 20vw;
+  }
+
+  .menu-parent-description {
+    font-size: 1vw;
+  }
+
 }
 
 .menu-parent-rule {

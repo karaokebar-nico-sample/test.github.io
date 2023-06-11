@@ -263,6 +263,17 @@
   text-decoration: none;
 }
 
+.menu-border {
+  width: 15vw;
+  margin: auto;
+  border-bottom: 0.5vw solid #19A7CE;
+}
+
+.menu ul {
+  padding-right: 0;
+  margin-top: 0;
+}
+
 @media screen and (min-width: 481px) {
   /* タブレット */
 
@@ -287,6 +298,10 @@
 
   .back {
     font-size: 1.5vw;
+  }
+
+  .menu ul {
+    padding-right: 10vw;
   }
 
 }
@@ -317,17 +332,10 @@
     font-size: 1.5vw;
   }
 
-}
+  .menu ul {
+    padding-right: 10vw;
+  }
 
-.menu-border {
-  width: 15vw;
-  margin: auto;
-  border-bottom: 0.5vw solid #19A7CE;
-}
-
-.menu ul {
-  padding-right: 10vw;
-  margin-top: 0;
 }
 
 .menu p {
@@ -367,6 +375,11 @@
   padding-bottom: 0.5vw;
 }
 
+.menu-parent-rule {
+  font-size: 2.75vw;
+  padding-top: 1vw;
+}
+
 @media screen and (min-width: 481px) {
   /* タブレット */
 
@@ -377,6 +390,10 @@
 
   .menu-parent-description {
     font-size: 1vw;
+  }
+
+  .menu-parent-rule {
+    font-size: 1.75vw;
   }
 
 }
@@ -393,11 +410,10 @@
     font-size: 1vw;
   }
 
-}
+  .menu-parent-rule {
+    font-size: 1.75vw;
+  }
 
-.menu-parent-rule {
-  font-size: 1.75vw;
-  padding-top: 1vw;
 }
 
 .menu-child-nomiho {

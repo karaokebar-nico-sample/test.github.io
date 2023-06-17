@@ -457,25 +457,25 @@
 .menu-description-name {
   position: absolute;
   left: 8vw;
-  font-size: 1vw;
+  font-size: 3vw;
 }
 
 .menu-description-price {
   position: absolute;
   right: 32vw;
-  font-size: 1vw;
+  font-size: 3vw;
   padding-top: 0.2vw;
 }
 
 .menu-description-subname {
   position: absolute;
   left: 16vw;
-  font-size: 1vw;
+  font-size: 3vw;
   padding-top: 0.7vw;
 }
 
 .small {
-  font-size: 2.5vw;
+  font-size: 3vw;
   padding-top: 0.5vw;
 }
 
